@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/image_rexiao"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <TextView
+        android:id="@+id/tv_rexiao_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="咖喱牛肉饭"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_rexiao_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="￥ 15"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/image_jia"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/gongge_add"/>
+    </LinearLayout>
+</LinearLayout>
